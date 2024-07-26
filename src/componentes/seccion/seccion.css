@@ -1,0 +1,15 @@
+.seccion{
+    display: flex;
+    background-color: #13051688;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+}
+.seccion img{
+    width: 30%;
+}
+.juegos{
+    background-color: #dd6ca5;
+    border: 2px solid white;
+}

@@ -1,0 +1,14 @@
+.header {
+    background-color: #dd6ca5;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Alfa Slab One", serif;
+
+}
+
+.header img {
+    height: 100px;
+    padding: 20px;
+}
