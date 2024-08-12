@@ -6,9 +6,9 @@ const Menu = () => {
         <nav className='menu'>
             <ul>
                 <li> <Link to="/" > Inicio </Link> </li>
-                <li> <Link to="/Juegos" > Juegos </Link> </li>
-                <li> <Link to="/Garantia" > Garantia </Link> </li>
-                <li> <Link to="/Ubicacion" > Ubicacion </Link> </li>
+                <li> <Link to="/Personajes" > Personajes </Link> </li>
+                <li> <Link to="/Nacion" > Nacion </Link> </li>
+                <li> <Link to="/Elementos" > Elementos </Link> </li>
             </ul>
         </nav>
     )

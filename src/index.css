@@ -5,14 +5,34 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: rgb(227,130,214);
-background: linear-gradient(90deg, rgba(227,130,214,1) 0%, rgba(238,187,255,1) 25%, rgba(204,204,204,1) 50%, rgba(238,187,255,1) 75%, rgba(227,130,214,1) 100%);
-
+  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.background {
+  position: relative;
+  width: 100%;
+  height: 100%; /* Ajusta la altura según sea necesario */
+  background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200526/2020052612332536813.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: backgroundTransition 20s infinite;
+}
+
+@keyframes backgroundTransition {
+  0% {
+    background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200526/2020052612332536813.jpg');
+  }
+  50% {
+    background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200526/2020052612332812636.jpg');
+  }
+  100% {
+    background-image: url('https://webstatic.hoyoverse.com/upload/uploadstatic/contentweb/20200526/2020052612332536813.jpg');
+  }
+}
+
 
 a {
   font-weight: 500;

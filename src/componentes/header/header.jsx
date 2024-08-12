@@ -1,10 +1,10 @@
 import './header.css'
-import Logo from '../../assets/img/logoJoystick.png'
+import Logo from '../../assets/img/LogoPaimon.png'
 function header(){
     return(
         <header className='header'>
             <img src={Logo} alt="logo" />
-            <h1>FreeGames</h1>
+            <h1>InfoGenshin</h1>
             
         </header>
     )

@@ -1,7 +1,7 @@
 @media(min-width:1080px){
   .container{
     width: 95vw;
-    margin: 0;
+    margin: 10;
     padding: 2rem;
   }
 }

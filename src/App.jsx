@@ -4,7 +4,9 @@ import Header from './componentes/header/header'
 import Footer from './componentes/footer/footer'
 import Menu from './componentes/navbar/menu'
 import Seccion from './componentes/seccion/seccion'
-import ListaJuegos from './componentes/Juegos/ListaJuegos'
+import Personajes from './componentes/Personajes/Personajes';
+import Elementos from './componentes/Elementos/elementos';
+import Banners from './componentes/carousel/carousel';
 import './App.css'
 
 function App() {
@@ -13,15 +15,16 @@ function App() {
       <div className='container'>
         <Header />
         <Menu />
+
         <main>
           <Routes>
             <Route path="/" element={<Seccion />} />
-            <Route path="/Juegos" element={<ListaJuegos />} />
+            <Route path="/Personajes" element={<Personajes />} />
+            <Route path="/Elementos" element={<Elementos />} />
           </Routes>
         </main>
 
         <Footer />
-
       </div>
     </Router>
   )
