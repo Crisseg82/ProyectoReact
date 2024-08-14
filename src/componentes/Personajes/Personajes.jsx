@@ -13,25 +13,30 @@ const Personajes = () => {
             .then(data => setCharacters(data))
             .catch(error => console.error('Hubo un problema con la solicitud:', error));
     }, []);
-const handleToggle = () => {
-        setIsExpanded(!isExpanded);
-    };
+
+   
 
     return (
         <div>
             <h1>Personajes de Liyue</h1>
             <div className="characters-list">
+
                 {characters.map(character => (
                     <div key={character.id} className="character-card">
-
-                        <h2>{character.name}</h2>
                         <img src={character.image} alt={character.name} />
+                        <div className='descripcionp'>
+                            <h2>{character.name}</h2>
+                            <p>{character.description}</p>
+                            
+                        </div>
+                        
                         <p><strong>Nación:</strong> {character.nation}</p>
                         <p><strong>Arma:</strong> {character.weapon}</p>
                         <p><strong>Elemento:</strong> {character.element}</p>
-                        <p>{character.description}</p>
+
                     </div>
                 ))}
+
             </div>
         </div>
     );

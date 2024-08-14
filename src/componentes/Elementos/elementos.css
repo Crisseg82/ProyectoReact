@@ -1,10 +1,15 @@
 .containerElements{
     background-color: rgba(39, 37, 38, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 2rem;
 }
 .element-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   }
   
   .element-image {
@@ -45,7 +50,7 @@
   }
   .element-tipo{
     display: flex;
-    width: 200px;
+    width: 300px;
     background-color: rgb(63, 63, 63);
     font-size: large;
     color: white;
@@ -53,4 +58,7 @@
     padding: 30px;
     
 
+  }
+  .app {
+    text-align: center;
   }

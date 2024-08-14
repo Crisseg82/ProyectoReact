@@ -11,6 +11,7 @@ function Elementos() {
             <i>Son los componentes básicos de este mundo y la fuente de muchos fenómenos milagrosos.
                 <br />
                 Todo tipo de cosas suceden cuando los elementos interactúan. Los aventureros, los viajeros y los guerreros usan las Reacciones Elementales para hacer proezas que serían imposibles de conseguir de otro modo.</i>
+            <br />
             <h2>Tipos de elementos</h2>
             <div className='element-tipo'>
                 <ul>
@@ -23,6 +24,7 @@ function Elementos() {
                     <li>Pyro: Fuego</li>
                 </ul>
             </div>
+            <br />
             <div className='mezcla'>
             <MezclaElement />
             </div>

@@ -10,6 +10,7 @@
     padding: 16px;
     width: 100%;
     text-align: center;
+    position: relative;
   }
   
   .character-card img {
@@ -17,4 +18,35 @@
     height: auto;
     border-radius: 4px;
   }
+  .descripcionp {
+    width: 100%;
+      min-height: 26px;
+      max-height: 150px;
+      overflow-y: auto;
+      padding: 10px 0 10px 15px;
+      box-sizing: border-box;
+      background: rgba(1, 1, 1, 0.5);
+      font-size: 16px;
+      color: #fff;
+      margin-top: 17px;
+      line-height: 26px;
+      font-family: Tahoma, Helvetica, Arial, sans-serif;
+      width: 455px;
+      text-align: left;
+      position: absolute;
+      bottom: 50%;
+  }
+  .toggle-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #00000069;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
   
+  .toggle-btn:hover {
+    background-color: #3633337a;
+  }
