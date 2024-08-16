@@ -14,8 +14,8 @@
   }
   
   .element-image {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin: 10px;
     cursor: pointer;
     border: 2px solid transparent;

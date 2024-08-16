@@ -4,6 +4,9 @@
   align-items: center;
   color: white;
   font-size: 16px;
+
+    padding: 20px;
+    position: relative;
 }
 #container-personajes strong{
   color: #fc19dd;
@@ -78,5 +81,41 @@
 
 .character-card button:hover {
     background-color: #0056b3;
+}
+
+.favorite-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.favorite-button.active {
+  background-color: #ff0000;
+}
+
+#favorites-section {
+    position: fixed;
+    top: 20px;
+    left: 20px; 
+    width: 250px; 
+    max-width: 90%;
+    background-color:rgba(0, 0, 0, 0.301);
+    border: 1px solid #ccc;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    z-index: 1000; 
+    overflow-y: auto;
+}
+
+.favorite-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-card img {
+  width: 50%;
+  margin-right: 10px;
 }
 
