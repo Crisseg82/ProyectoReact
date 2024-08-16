@@ -8,6 +8,9 @@ import Personajes from './componentes/Personajes/Personajes';
 import Elementos from './componentes/Elementos/elementos';
 import Banners from './componentes/carousel/carousel';
 import './App.css'
+import Nacion from './componentes/naciones/Naciones';
+
+
 
 function App() {
   return (
@@ -21,6 +24,7 @@ function App() {
             <Route path="/" element={<Seccion />} />
             <Route path="/Personajes" element={<Personajes />} />
             <Route path="/Elementos" element={<Elementos />} />
+            <Route path="/Nacion" element={<Nacion />} />
           </Routes>
         </main>
 

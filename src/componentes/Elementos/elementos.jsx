@@ -12,6 +12,7 @@ function Elementos() {
                 <br />
                 Todo tipo de cosas suceden cuando los elementos interactúan. Los aventureros, los viajeros y los guerreros usan las Reacciones Elementales para hacer proezas que serían imposibles de conseguir de otro modo.</i>
             <br />
+
             <h2>Tipos de elementos</h2>
             <div className='element-tipo'>
                 <ul>
