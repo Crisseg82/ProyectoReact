@@ -13,7 +13,7 @@ const MezclaElement = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/public/Elementos/elementos.json');
+        const response = await fetch('/Elementos/elementos.json');
         const data = await response.json();
         setElements(data.elements);
         setReactions(data.reactions);

@@ -7,7 +7,7 @@ const Personajes = () => {
     const [favorites, setFavorites] = useState([]);
 
     useEffect(() => {
-        fetch('/public/personajes/data.json')
+        fetch('/personajes/data.json')
             .then(response => response.json())
             .then(data => setCharacters(data))
             .catch(error => console.error('Hubo un problema con la solicitud:', error));

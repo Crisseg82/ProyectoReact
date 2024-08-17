@@ -6,7 +6,7 @@ const Nacion = () => {
     const [showDescription, setShowDescription] = useState({});
 
     useEffect(() => {
-        fetch('/public/naciones/nacion.json')
+        fetch('/naciones/nacion.json')
             .then(response => response.json())
             .then(data => setNations(data))
             .catch(error => console.error('Error fetching the nations data:', error));
